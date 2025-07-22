@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delish-Bite</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="nav-bar">
+        <a href="#home" class="logo">DELISH-BITE</a>
+
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <main class="home">
+        <div class="home-intro">
+            <h1>DELISH-BITE</h1>
+    <p>Welcome to Delish-Bite, your go-to destination for delicious food and delightful experiences. Explore our menu, place your order, and enjoy the best culinary delights in town!</p>
+        </div>
+        <!-- cart -->
+    <section id="cart" class="cart-container">
+        <h2>
+            <i class="fas fa-shopping-cart"></i> Your Cart
+        </h2>
+        <ul id="cart-items" class="cart-items">
+            <li class="cart-empty-msg">Your cart is empty</li>
+        </ul>
+        <div class="cart-total">
+            <strong>Total: Ksh <span id="cart-total-price">0</span></strong>
+        </div>
+        <!-- menu -->
+    </section>
+    <section class="menu-container">
+        <h2>Our Menu</h2>
+
+        <ul class="menu-grid">
+            <li class="menu-card">
+                <img src="./images/chapati-beans.jpg" alt="Chapati with beans">
+                <div class="card-content">
+                    <h3 class="food-name">Chapati + Beans</h3>
+                    <p class="food-price">KSh 200</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/Ugali-Beef.jpg" alt="Ugali with beef stew">
+                <div class="card-content">
+                    <h3 class="food-name">Ugali + Beef</h3>
+                    <p class="food-price">KSh 400</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/Ugali-Fish.jpg" alt="Ugali with fried fish">
+                <div class="card-content">
+                    <h3 class="food-name">Ugali + Fish</h3>
+                    <p class="food-price">KSh 550</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/chapati with beef and salad.jpg" alt="Chapati with beef">
+                <div class="card-content">
+                    <h3 class="food-name">Chapati + Beef</h3>
+                    <p class="food-price">KSh 350</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/biryani.jpg" alt="Chicken biryani">
+                <div class="card-content">
+                    <h3 class="food-name">Biryani</h3>
+                    <p class="food-price">KSh 500</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/pizza.jpg" alt="Pizza">
+                <div class="card-content">
+                    <h3 class="food-name">Pizza</h3>
+                    <p class="food-price">KSh 1000</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/burger.jpg" alt="Beef burger">
+                <div class="card-content">
+                    <h3 class="food-name">Burger</h3>
+                    <p class="food-price">KSh 600</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/Smocha.jpg" alt="Smokie chapati wrap">
+                <div class="card-content">
+                    <h3 class="food-name">Smocha</h3>
+                    <p class="food-price">KSh 100</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/Mukimo.jpg" alt="Mukimo dish">
+                <div class="card-content">
+                    <h3 class="food-name">Mukimo</h3>
+                    <p class="food-price">KSh 300</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/Pilau.jpg" alt="Beef pilau">
+                <div class="card-content">
+                    <h3 class="food-name">Pilau</h3>
+                    <p class="food-price">KSh 450</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/nyama-choma.jpg" alt="Nyama Choma">
+                <div class="card-content">
+                    <h3 class="food-name">Nyama Choma</h3>
+                    <p class="food-price">KSh 700</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/githeri.jpg" alt="Githeri">
+                <div class="card-content">
+                    <h3 class="food-name">Githeri</h3>
+                    <p class="food-price">KSh 250</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/chips-masala.jpg" alt="Chips Masala">
+                <div class="card-content">
+                    <h3 class="food-name">Chips Masala</h3>
+                    <p class="food-price">KSh 200</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/samosa.jpg" alt="Samosas">
+                <div class="card-content">
+                    <h3 class="food-name">Samosas</h3>
+                    <p class="food-price">KSh 50</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/mandazi.jpg" alt="Mandazi">
+                <div class="card-content">
+                    <h3 class="food-name">Mandazi</h3>
+                    <p class="food-price">KSh 20</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+            <li class="menu-card">
+                <img src="./images/chicken-fry.jpg" alt="Chicken fry">
+                <div class="card-content">
+                    <h3 class="food-name">Chicken Fry</h3>
+                    <p class="food-price">KSh 450</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+</main>
+<script src="./js/script.js"></script>
+</body>
+</html>
