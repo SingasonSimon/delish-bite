@@ -201,3 +201,113 @@ body{
     font-weight: bold;
     margin-top: 1rem;
 }
+/* --- Admin Page Styling --- */
+.admin-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.add-item-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.add-item-form label {
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.add-item-form input[type="text"],
+.add-item-form input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Important for padding and width to work well */
+}
+
+.add-item-form button[type="submit"] {
+    background-color: #007bff; /* A nice blue for a primary action */
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.add-item-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.message {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: #d4edda; /* Light green for success */
+    color: #155724; /* Dark green text */
+    border: 1px solid #c3e6cb;
+    text-align: center;
+}
+/* --- Admin Table Styling --- */
+.divider {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 3rem 0;
+}
+
+.item-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+}
+
+.item-table th, .item-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.item-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.item-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.item-table .actions a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    margin-right: 5px;
+}
+
+.edit-btn {
+    background-color: #007bff; /* Blue */
+}
+
+.delete-btn {
+    background-color: #dc3545; /* Red */
+}
+.message.error {
+    background-color: #f8d7da; /* Light red for error */
+    color: #721c24;
+    border-color: #f5c6cb;
+}
